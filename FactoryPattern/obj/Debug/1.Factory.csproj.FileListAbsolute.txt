@@ -1,0 +1,7 @@
+E:\Program Files\Projects\C#\StudyPatterns\FactoryPattern\bin\Debug\FactoryPattern.exe.config
+E:\Program Files\Projects\C#\StudyPatterns\FactoryPattern\bin\Debug\FactoryPattern.exe
+E:\Program Files\Projects\C#\StudyPatterns\FactoryPattern\bin\Debug\FactoryPattern.pdb
+E:\Program Files\Projects\C#\StudyPatterns\FactoryPattern\obj\Debug\1.Factory.csprojAssemblyReference.cache
+E:\Program Files\Projects\C#\StudyPatterns\FactoryPattern\obj\Debug\1.Factory.csproj.CoreCompileInputs.cache
+E:\Program Files\Projects\C#\StudyPatterns\FactoryPattern\obj\Debug\FactoryPattern.exe
+E:\Program Files\Projects\C#\StudyPatterns\FactoryPattern\obj\Debug\FactoryPattern.pdb
