@@ -4,5 +4,6 @@
  ## List of Patterns
  * Factory
  * Abstract Factory
+ * Builder
  
 [Source](https://refactoring.guru/)
