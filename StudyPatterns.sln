@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Factory", "FactoryPattern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.AbstractFactory", "AbstractFactory\2.AbstractFactory.csproj", "{F489AB0D-BDAF-4DCB-A80D-97B06070BB0D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09E69818-48DE-4CF9-B01F-A512A331F1AE}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Builder", "Builder\3.Builder.csproj", "{33C6FD99-A26F-4F58-9F67-2F3FBD0BA92E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{F489AB0D-BDAF-4DCB-A80D-97B06070BB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F489AB0D-BDAF-4DCB-A80D-97B06070BB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F489AB0D-BDAF-4DCB-A80D-97B06070BB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C6FD99-A26F-4F58-9F67-2F3FBD0BA92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C6FD99-A26F-4F58-9F67-2F3FBD0BA92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C6FD99-A26F-4F58-9F67-2F3FBD0BA92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C6FD99-A26F-4F58-9F67-2F3FBD0BA92E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

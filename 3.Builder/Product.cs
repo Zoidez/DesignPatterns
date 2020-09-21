@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace _3.Builder
 {
-    public interface IAbstractProductA
+    class Product
     {
-        string SomeFunction();
     }
 }

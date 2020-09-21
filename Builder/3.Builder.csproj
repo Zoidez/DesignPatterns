@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E9E4AD3-9344-4ADF-A743-1C6870AFD3F7}</ProjectGuid>
+    <ProjectGuid>{33C6FD99-A26F-4F58-9F67-2F3FBD0BA92E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Builder</RootNamespace>
-    <AssemblyName>DesignPatterns</AssemblyName>
+    <AssemblyName>Builder</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -19,10 +19,9 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,19 +31,17 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
-    <Compile Include="ConcreteFactory1.cs" />
-    <Compile Include="ConcreteFactory2.cs" />
-    <Compile Include="ConcreteProduct1.cs" />
-    <Compile Include="ConcreteProduct2.cs" />
-    <Compile Include="Factory.cs" />
-    <Compile Include="IProduct.cs" />
+    <Compile Include="ConcreteBuilder1.cs" />
+    <Compile Include="ConcreteBuilder2.cs" />
+    <Compile Include="Director.cs" />
+    <Compile Include="IBuilder.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>

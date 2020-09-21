@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace Builder
 {
-    public interface IAbstractProductA
+    public interface IBuilder
     {
-        string SomeFunction();
+        void BuildPartA();
+        void BuildPartB();
+        void BuildPartC();
     }
 }

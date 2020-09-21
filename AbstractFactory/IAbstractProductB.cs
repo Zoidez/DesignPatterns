@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    interface IAbstractProductB
+    public interface IAbstractProductB
     {
         string SomeFunction();
 

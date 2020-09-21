@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace Builder
 {
-    public interface IAbstractProductA
+    class Program
     {
-        string SomeFunction();
+        static void Main(string[] args)
+        {
+            new Client().Main();
+        }
     }
 }
