@@ -5,5 +5,6 @@
  * Factory
  * Abstract Factory
  * Builder
+ * Prototype
  
 [Source](https://refactoring.guru/)
